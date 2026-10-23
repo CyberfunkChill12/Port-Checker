@@ -82,7 +82,7 @@ connection attempt took. Below the panel, totals for each result update as the c
 | --- | --- | --- |
 | Ports per check | 1,024 | `MAX_PORTS` |
 | Ports checked at the same time | 100 | `MAX_WORKERS` |
-| Timeout | 0.1 to 10 seconds | `MIN_TIMEOUT`, `MAX_TIMEOUT` |
+| Timeout | 0.1 to 300 seconds | `MIN_TIMEOUT`, `MAX_TIMEOUT` |
 | Default timeout | 1 second | `DEFAULT_TIMEOUT` |
 
 The settings are constants near the top of `port_checker.py`. To add or rename service
